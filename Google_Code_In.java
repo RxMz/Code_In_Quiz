@@ -24,8 +24,8 @@ class  Quiz_Code_In extends JFrame implements ActionListener{
                     initializedata();
                      setTitle("Quiz Code In");
                      setDefaultCloseOperation(EXIT_ON_CLOSE);
-                      setSize(750,750);
-                      setLocation(300,100);
+                      setSize(700,700);
+                      setLocation(300,00);
                       setResizable(false);
                       Container cont=getContentPane();
                       cont.setLayout(null);          
@@ -48,7 +48,7 @@ class  Quiz_Code_In extends JFrame implements ActionListener{
                     panel=new JPanel();
                     panel.setBackground(Color.LIGHT_GRAY);
                     panel.setLocation(10,10);
-                    panel.setSize(750,750);
+                    panel.setSize(700,700);
                     panel.setLayout(new GridLayout(6,2));
                     panel.add(lblmess);
                     panel.add(choice1);
