@@ -1,4 +1,5 @@
-
+//Rishabh Minocha
+//Google_Code_In
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -261,7 +262,6 @@ class  Quiz_Code_In extends JFrame implements ActionListener{
                                                             }
                                                            
                                                 }
-                                                //Show number of correct answers
                                                 int numc=calCorrectAnswer();
                                                 g.setColor(Color.BLUE);
                                                 g.setFont(new Font("Arial",Font.BOLD,14));
@@ -272,19 +272,14 @@ class  Quiz_Code_In extends JFrame implements ActionListener{
                         }
                                    
             }
-           
-
-           
-
-}
-
-
- public class QuizProgram{
- 
             public static void main(String args[]){
-                         new Quiz();
+                         new Quiz_Code_In();
   
             }
+           
 
+           
 
 }
+
+
